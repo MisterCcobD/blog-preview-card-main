@@ -28,8 +28,8 @@ main {
   text-align: center;
   padding: 1%;
   background-color: white;
-  margin: 12rem auto;
-  width: 25em;
+  margin: 3rem auto;
+  width: 90%;
   border-radius: 20px;
   box-shadow: 12px 12px 2px;
 }
@@ -64,4 +64,16 @@ span {
 }
 main:hover{
   box-shadow: 16px 16px 2px;
+}
+@media screen and (min-width:720px) {
+  main{
+    margin-top: 6rem;
+    width: 50vw;
+  }
+}
+@media screen and (min-width:1080px) {
+  main{
+    margin-top: 12rem;
+    width: 25vw;
+  }
 }
